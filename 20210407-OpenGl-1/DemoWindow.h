@@ -12,7 +12,8 @@
 
 class DemoWindow final : public Window {
 protected:
-	double _cube_angle { 0. };
+	double _cube_angle { 0. }; //угл поворота куба равный 0
+	double _cube_scale { 1.0 }; //масштаб куба равный 1
 
 public:
 	DemoWindow(int width = DEFAULT_WIDTH, int height = DEFAULT_HEIGHT);
